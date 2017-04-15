@@ -35,3 +35,11 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+*.zip
+
+.serverless/cloudformation-template-update-stack.json
+
+.serverless/cloudformation-template-create-stack.json
+
+.serverless/sns-slack.zip

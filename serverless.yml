@@ -7,7 +7,7 @@ service: sns-slack # NOTE: update this with your service name
 provider:
   name: aws
   runtime: nodejs4.3
-
+plugins:
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
@@ -33,10 +33,9 @@ provider:
 #    variable1: value1
 
 # you can add packaging information here
-#package:
-#  include:
-#    - include-me.js
-#    - include-me-dir/**
+package:
+	include:
+		- node_modules/**
 #  exclude:
 #    - exclude-me.js
 #    - exclude-me-dir/**

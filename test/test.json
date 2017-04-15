@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:ap-southeast-1:490034082196:sns-slack:5c4107c1-a8a8-4a3a-b9f3-d4884933363e",
+      "Sns": {
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "Message": {
+          "AccountId": "490034082196",
+          "RequestId": "b2740d7a-21b0-11e7-9b9c-9d6745228acd",
+          "AutoScalingGroupARN": "arn:aws:autoscaling:ap-southeast-1:490034082196:autoScalingGroup:82b029eb-5fcf-43ab-a03c-872bd23c259b:autoScalingGroupName/Tonite",
+          "AutoScalingGroupName": "Tonite",
+          "Service": "AWS Auto Scaling",
+          "Event": "autoscaling:TEST_NOTIFICATION",
+          "Time": "2017-04-15T07:54:05.038Z"
+        },
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        }
+      }
+    }
+  ]
+}
